@@ -20,3 +20,5 @@ $ yarn start
 ```
 
 Service available on `localhost:8080`
+
+Note: Boiler Plate has been used for SSR
