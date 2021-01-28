@@ -47,6 +47,8 @@
     width: 85%;
     max-width: 85%;
     float: right;
+    height: 459px;
+    overflow: auto;
     .space-item {
       display: block;
       height: 341px;
@@ -150,6 +152,8 @@
       width: 85%;
       max-width: 75%;
       float: right;
+      height: 421px;
+      overflow: auto;
       .space-item {
         display: inline-block;
         height: 341px;
@@ -255,6 +259,8 @@
         width: 971px;
         max-width: 1000px;
         float: right;
+        height: 421px;
+        overflow: auto;
         .space-item {
           display: inline-block;
           height: 341px;
