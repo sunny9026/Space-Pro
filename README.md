@@ -21,4 +21,6 @@ $ yarn start
 
 Service available on `localhost:8080`
 
+Branch Name: Main
+
 Note: Boiler Plate has been used for SSR
