@@ -1,14 +1,12 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Countries from "../components/Countries";
-import Country from "../components/Country";
+import Space from "../components/SpacePrograms";
 
 
 export default () => {
   return(
     <div>
-      <Route exact path="/" component={Countries} />
-      <Route path="/:name" component={Country} />
+      <Route exact path="/" component={Space} />
     </div>
   );
 };

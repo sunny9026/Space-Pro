@@ -1,8 +1,4 @@
-export const ROOT = 'https://restcountries.eu/rest/v2';
+export const ROOT = 'https://api.spaceXdata.com/v3';
 
-export const REQUEST_COUNTRIES = 'REQUEST_COUNTRIES';
-export const RECEIVE_COUNTRIES = 'RECEIVE_COUNTRIES';
-
-
-export const REQUEST_COUNTRY = 'REQUEST_COUNTRY';
-export const RECEIVE_COUNTRY = 'RECEIVE_COUNTRY';
+export const REQUEST_DATA_P = 'REQUEST_DATA_P';
+export const RECEIVE_DATA_P = 'RECEIVE_DATA_P';

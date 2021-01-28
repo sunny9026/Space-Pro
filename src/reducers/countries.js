@@ -1,6 +1,6 @@
 import {
-  REQUEST_COUNTRIES,
-  RECEIVE_COUNTRIES
+  REQUEST_DATA_P,
+  RECEIVE_DATA_P
 } from "../action/types";
 
 const INITIAL_STATE = {
@@ -11,10 +11,10 @@ const INITIAL_STATE = {
 
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case REQUEST_COUNTRIES: {
+    case REQUEST_DATA_P: {
       return { ...state, isFetching: true };
     }
-    case RECEIVE_COUNTRIES: {
+    case RECEIVE_DATA_P: {
       return { ...state, isFetching: false, data: action.payload };
     }
     default:

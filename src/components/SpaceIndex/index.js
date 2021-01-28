@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchCountry } from "../../action/countries";
+import { fetchCountry } from "../../action/space-action";
 import { Loading } from "../../common";
 
 const m = ({ country }) => ({ country });
 
 @connect(m, { fetchCountry })
-export default class Country extends Component {
+export default class Space extends Component {
 
   componentDidMount() {
-    this.props.fetchCountry(this.props.match.params.name);
+    this.props.fetchData_P(this.props.match.params.name);
   }
 
   render() {
