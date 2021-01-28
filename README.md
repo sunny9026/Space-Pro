@@ -1,4 +1,4 @@
-# Server Side Rendering Boilerplate
+Space Launch Program Code
 
 ## Pre requirements
 * [Node.js](https://nodejs.org/)
@@ -13,7 +13,7 @@
 
 ## Getting started
 ```bash
-$ git clone https://github.com/mirchenko/react-ssr-boilerplate.git <YOUR_FOLDER_NAME>
+$ git clone https://github.com/sunny9026/Space-Pro.git <YOUR_FOLDER_NAME>
 $ cd <YOUR_FOLDER_NAME>
 $ yarn 
 $ yarn start
